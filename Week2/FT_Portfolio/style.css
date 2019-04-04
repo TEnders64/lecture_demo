@@ -1,0 +1,66 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: 1px dashed green;
+}
+#container {
+    width: 1000px;
+    margin: 0px auto;
+}
+#header {
+    background-color: rgb(235, 235, 235);
+}
+    #header h1 {
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 20px;
+        width: 600px;
+    }
+    #header h2 {
+        display: inline-block;
+        width: 360px;
+        font-size: 20px;
+        margin-top: 6px;
+    }
+#main {
+    background-color: maroon;
+    padding: 20px;
+}
+    #main img {
+        width: 400px;
+        border: 3px solid silver;
+        margin-right: 14px;
+    }
+    #main .about-me {
+        display: inline-block;
+        vertical-align: top;
+        height: 277px;
+        width: 536px;
+        background-color: white; 
+    }
+    #main div h3 {
+        background-color: silver;
+        color: white;
+    }  
+    #main div.project {
+        display: inline-block;
+        vertical-align: top;
+        width: 300px;
+        background-color: white;
+        margin-top: 20px;
+        margin-right: 24px;
+    }
+    #main div#no-margin {
+        margin-right: 0px;
+    }
+    #main .project-image {
+        width: 300px;
+        border: none;
+    }
+    #main .project p {
+        height: 126px;
+    }
+    #main .project div {
+        width: 300px;
+        height: 100px;
+    }
